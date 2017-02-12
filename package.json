@@ -1,0 +1,22 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Can take in multiple commands to pull from twitter, spotify, and omdb",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattwhite8/liri-node-app.git"
+  },
+  "author": "Matt White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattwhite8/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/mattwhite8/liri-node-app#readme",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
+}
