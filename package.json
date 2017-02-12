@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mattwhite8/liri-node-app#readme",
   "dependencies": {
+    "moviedb": "^0.2.7",
     "spotify": "^0.3.0",
     "twitter": "^1.7.0"
   }
