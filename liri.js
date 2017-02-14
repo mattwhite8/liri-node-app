@@ -26,9 +26,9 @@ function getTwitter(){
 	})	
 }
 
-function getSpotify(){
+function getSpotify(query){
 	if(cmd2){
-		spotify.search({type: 'track', query: cmd2}, function(error, data){
+		spotify.search({type: 'track', query: query}, function(error, data){
 			if(error) throw error;
 			console.log(data.tracks.items[0].album.artists[0].name);
 			console.log('=============');	
@@ -56,9 +56,9 @@ function getSpotify(){
 	}	
 }
 
-function getMovies(){
+function getMovies(movie){
 	if(cmd2){
-		movieDB.searchMovie({query: cmd2 }, function(error, data){
+		movieDB.searchMovie({query: movie }, function(error, data){
 			if(error) throw error;
 			console.log('');
 		  	console.log(`Title: ${data.results[0].title}`);
@@ -99,18 +99,25 @@ switch(cmd) {
 	break;
 
 	case 'spotify-this-song':
-		getSpotify();
+		getSpotify(cmd2);
 	break;
 
 	case 'movie-this':
-		getMovies();
+		getMovies(cmd2);
 	break;
 
 	case 'do-what-it-says':
 	fs.readFile("random.txt", "UTF-8", function(error, data){
 		if (error) throw error;
 		data = data.split(',');
-		console.log(data);
+
+		if(data[0] === 'my-tweets'){
+			getTwitter();
+		}else if(data[0] === 'spotify-this-song'){
+			getSpotify(data[1]);
+		}else if(data[0] === 'movie-this'){
+			getMovies(data[1]);
+		}
 	})
 
 }
