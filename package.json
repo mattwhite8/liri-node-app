@@ -1,7 +1,7 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "Can take in multiple commands to pull from twitter, spotify, and omdb",
+  "description": "Can take in multiple commands to pull from twitter, spotify, and moviedb",
   "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

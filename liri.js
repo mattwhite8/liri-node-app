@@ -5,6 +5,7 @@ var keys = require('./keys.js');
 var Twitter = require('twitter');
 var spotify = require('spotify');
 var movieDB = require('moviedb')('cee1c5d1dfa35faf1c03da413bc82995');
+var fs = require('fs');
 
 var client = new Twitter({
   consumer_key: keys.twitterKeys.consumer_key,
@@ -13,9 +14,7 @@ var client = new Twitter({
   access_token_secret: keys.twitterKeys.access_token_secret
 });
 
-switch(cmd) {
-
-	case 'my-tweets':
+function getTwitter(){
 	client.get('statuses/user_timeline',{screen_name: 'CLTWebDev', count: 20},function(error, tweets, response){
 		if(error) throw error;
 		for(var i = 0; i < tweets.length; i++){
@@ -24,10 +23,10 @@ switch(cmd) {
 			console.log(tweets[i].created_at);
 			console.log('================');
 		}
-	})
-	break;
+	})	
+}
 
-	case 'spotify-this-song':
+function getSpotify(){
 	if(cmd2){
 		spotify.search({type: 'track', query: cmd2}, function(error, data){
 			if(error) throw error;
@@ -54,10 +53,10 @@ switch(cmd) {
 			console.log(`Album: ${data.album.name}`);
 			console.log('');
 		})
-	}
-	break;
+	}	
+}
 
-	case 'movie-this':
+function getMovies(){
 	if(cmd2){
 		movieDB.searchMovie({query: cmd2 }, function(error, data){
 			if(error) throw error;
@@ -91,7 +90,28 @@ switch(cmd) {
 			console.log('');		
 		});
 	}
+}
+
+switch(cmd) {
+
+	case 'my-tweets':
+		getTwitter();
 	break;
+
+	case 'spotify-this-song':
+		getSpotify();
+	break;
+
+	case 'movie-this':
+		getMovies();
+	break;
+
+	case 'do-what-it-says':
+	fs.readFile("random.txt", "UTF-8", function(error, data){
+		if (error) throw error;
+		data = data.split(',');
+		console.log(data);
+	})
 
 }
 
