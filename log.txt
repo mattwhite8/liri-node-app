@@ -1,0 +1,63 @@
+my-tweets
+================
+
+Just began working on my first Node app to integrate the Twitter API😀😀
+Sun Feb 12 16:17:51 +0000 2017
+================
+
+
+================
+Hello, world
+Sun Feb 12 15:32:08 +0000 2017
+================
+
+
+spotify-this-song
+
+=============
+Lady Gaga
+Bad Romance
+=============
+https://p.scdn.co/mp3-preview/645b86ab431dc574fe2f27148d9474b4cfc710bd?cid=null
+=============
+The Fame Monster
+
+my-tweets
+
+================
+Just began working on my first Node app to integrate the Twitter API😀😀
+Sun Feb 12 16:17:51 +0000 2017
+================
+
+
+================
+Hello, world
+Sun Feb 12 15:32:08 +0000 2017
+================
+
+spotify-this-song
+
+Darius Rucker
+
+=============
+Wagon Wheel
+=============
+https://p.scdn.co/mp3-preview/d520578b1722bd6841316be6c272caec21b74353?cid=null
+=============
+True Believers
+
+spotify-this-song
+
+
+You didn't put a song title in, so here you go:
+Artist: Ace of Base
+=============
+Song title: The Sign
+=============
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null
+=============
+Album: The Sign (US Album) [Remastered]
+
+
+You didn't input a valid command
+
