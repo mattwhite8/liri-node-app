@@ -22,4 +22,4 @@ Liri comes with 4 built in commands:
 **Please be aware that I am using the moviedb npm package in place of OMBD as that service is currently down, the data returned may differ slightly** 
 
 ## 4) 'do-what-it-says'
-`node liri.js do-what-it-says will return whatever command is placed in random.txt.  **Go Wild**.   
+`node liri.js do-what-it-says` will return whatever command is placed in random.txt.  **Go Wild**.   
