@@ -61,3 +61,38 @@ Album: The Sign (US Album) [Remastered]
 
 You didn't input a valid command
 
+my-tweets
+
+================
+Just began working on my first Node app to integrate the Twitter API😀😀
+Sun Feb 12 16:17:51 +0000 2017
+================
+
+
+================
+Hello, world
+Sun Feb 12 15:32:08 +0000 2017
+================
+
+spotify-this-song
+
+Linkin Park
+=============
+Numb
+=============
+https://p.scdn.co/mp3-preview/e6ccf7717f8a167bfea4afc1bf7da1a0cd707fbb?cid=null
+=============
+Meteora
+
+movie-this
+
+Title: Jaws
+=============
+Year: 1975-06-18
+=============
+Rating: 7.3
+=============
+Language: en
+=============
+Plot: An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.
+
