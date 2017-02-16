@@ -5,7 +5,7 @@ Liri comes with 4 built in commands:
 `node liri.js my-tweets` will return the 20 most recent tweets made by myself.
 
 ## 2) 'spotify-this-song'
-`node liri.js spotify-this-son [song title]` will return:
+`node liri.js spotify-this-song [song title]` will return:
 * Artist(s)
 * The song's name
 * A preview link of the song from Spotify
