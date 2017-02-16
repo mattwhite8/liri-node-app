@@ -6,18 +6,18 @@ Liri comes with 4 built in commands:
 
 ## 2) 'spotify-this-song'
 `node liri.js spotify-this-son [song title]` will return:
-    * Artist(s)
-    * The song's name
-    * A preview link of the song from Spotify
-    * The album that the song is from
+* Artist(s)
+* The song's name
+* A preview link of the song from Spotify
+* The album that the song is from
 
 ## 3) 'movie-this'
 `node liri.js movie-this [movie title]` will return: 
-	* Movie title 
-	* Release year
-	* Average rating
-	* Original language
-	* Plot 
+* Movie title 
+* Release year
+* Average rating
+* Original language
+* Plot 
 
 **Please be aware that I am using the moviedb npm package in place of OMBD as that service is currently down, the data returned may differ slightly** 
 
