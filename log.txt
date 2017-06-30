@@ -96,3 +96,97 @@ Language: en
 =============
 Plot: An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.
 
+
+You didn't input a valid command
+
+my-tweets
+
+================
+I just earned the Subqueries badge on level 5 of The Sequel to SQL on @codeschool https://t.co/z9FLSL9JaJ
+Fri Mar 03 22:25:16 +0000 2017
+================
+
+
+================
+I just earned the Joins  https://t.co/z9FLSL9JaJ
+Fri Mar 03 22:10:23 +0000 2017
+================
+
+
+================
+I just earned the Normalization  https://t.co/z9FLSL9JaJ
+Fri Mar 03 20:26:33 +0000 2017
+================
+
+
+================
+I just earned the Constraints badge on level 2 of The Sequel to SQL on @codeschool https://t.co/z9FLSL9JaJ
+Fri Mar 03 19:36:34 +0000 2017
+================
+
+
+================
+I just earned the Aggregate Functions badge on level 1 of The Sequel to SQL on @codeschool https://t.co/z9FLSL9JaJ
+Fri Mar 03 19:04:56 +0000 2017
+================
+
+
+================
+I just earned the Managing Databases and Tables badge on level 3 of Try SQL on @codeschool https://t.co/mXtnHlNsIO
+Fri Mar 03 18:40:02 +0000 2017
+================
+
+
+================
+I just earned the Managing Data badge on level 2 of Try SQL on @codeschool https://t.co/mXtnHlNsIO
+Fri Mar 03 17:59:28 +0000 2017
+================
+
+
+================
+I just earned the The Ins and Outs of Databases badge on level 1 of Try SQL on @codeschool https://t.co/mXtnHlNsIO
+Fri Mar 03 17:31:01 +0000 2017
+================
+
+
+================
+I just earned the Express badge on level 5 of Real Time Web with Node.js on @codeschool https://t.co/2UMn6sUJyJ
+Wed Mar 01 18:29:22 +0000 2017
+================
+
+
+================
+I just earned the Modules badge on level 4 of Real Time Web with Node.js on @codeschool https://t.co/2UMn6sUJyJ
+Wed Mar 01 14:42:28 +0000 2017
+================
+
+
+================
+I just earned the Streams badge on level 3 of Real Time Web with Node.js on @codeschool https://t.co/2UMn6sUJyJ
+Wed Mar 01 14:14:28 +0000 2017
+================
+
+
+================
+I just earned the Events badge on level 2 of Real Time Web with Node.js on @codeschool https://t.co/2UMn6sUJyJ
+Wed Mar 01 13:46:43 +0000 2017
+================
+
+
+================
+I just earned the Intro to Node.js badge on level 1 of Real Time Web with Node.js on @codeschool https://t.co/2UMn6sUJyJ
+Wed Mar 01 13:27:32 +0000 2017
+================
+
+
+================
+Just began working on my first Node app to integrate the Twitter API😀😀
+Sun Feb 12 16:17:51 +0000 2017
+================
+
+
+================
+Hello, world
+Sun Feb 12 15:32:08 +0000 2017
+================
+
